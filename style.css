@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: grid;
+    place-items: center;
+    min-height: calc(100vh - 3rem);
+}
+
+.container{
+    text-align: center;
+}
+
+.btn{
+    padding: .50rem 3rem;
+    margin: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
